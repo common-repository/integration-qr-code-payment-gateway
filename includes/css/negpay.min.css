@@ -1,0 +1,181 @@
+#js_qrcode {
+	display: none!important
+}
+
+#negpaywc-qrcode {
+	max-width: 170px;
+	max-height: 170px;
+	margin: 0 auto
+}
+
+#negpaywc-qrcode img {
+	margin: 0 auto;
+	border: 1px solid #ccc
+}
+}
+
+#negpaywc-description {
+	text-transform: none;
+	font-size: 14px;
+	width: 95%;
+	margin: 0 auto
+}
+
+.negpaywc-clear {
+	margin: 8px 0!important
+}
+
+.negpaywc-clear-area {
+	margin: 5px 0!important
+}
+
+.negpaywc-form-group input {
+	width: 70%;
+	max-width: 80%!important;
+	text-align: center!important;
+	border-radius: 5px!important;
+	margin: auto;
+	display: inline-block;
+	vertical-align: bottom
+}
+
+.negpaywc-form-group select {
+	width: 25%;
+	border-radius: 5px!important;
+	display: inline-block;
+	vertical-align: sub
+}
+
+span.negpaywc-required {
+	color: red
+}
+
+.negpaywc-order-total {
+	font-weight: 700;
+	font-size: 12px;
+	margin: 3px 0 5px 0;
+	text-transform: uppercase
+}
+
+.negpaywc-negpay-id {
+	font-weight: 700;
+	font-size: 12px;
+	margin: 0 0 3px 0;
+	text-transform: uppercase
+}
+
+.negpaywc-order-total span,
+.negpaywc-negpay-id span {
+	color: #bb3b15
+}
+
+#negpaywc-order-total-amount-dark,
+#negpaywc-negpay-id-raw-dark {
+	color: #ecf019
+}
+
+.negpaywc-confirm-text {
+	font-size: 14px;
+	width: 90%;
+	margin: 0 auto
+}
+
+.negpaywc-return-link {
+	font-size: 12px;
+	padding-top: 5px;
+	cursor: pointer;
+	display: none
+}
+
+.negpaywc-form-group label strong {
+	color: #57bf6d
+}
+
+.negpaywc-popup-title-light {
+	color: #000
+}
+
+.negpaywc-help-text-light {
+	display: block;
+	color: #bb153b;
+	margin-top: 5px;
+	text-transform: uppercase;
+	font-size: 12px
+}
+
+.negpaywc-help-text-dark {
+	display: block;
+	color: #a2ff0b;
+	margin-top: 5px;
+	text-transform: uppercase;
+	font-size: 12px
+}
+
+.jconfirm-box,
+.jconfirm.jconfirm-dark .jconfirm-box .jconfirm-buttons,
+.jconfirm.jconfirm-light .jconfirm-box .jconfirm-buttons {
+	text-align: center!important;
+	float: none!important
+}
+
+.jconfirm-buttons button {
+	font-size: 12px!important
+}
+
+.negpaywc-info {
+	display: block;
+	text-align: center;
+	border-width: 1px;
+	border-style: solid;
+	border-color: rgba(84, 84, 84, .15);
+	border-image: initial;
+	padding: 18px;
+	background-color: #f7f7f7
+}
+
+.negpaywc-waiting-text {
+	text-transform: uppercase;
+	color: #5a5a5a;
+	font-size: 13px
+}
+
+.negpaywc-dark-input {
+	color: #fff!important
+}
+
+@media only screen and (max-width:600px) {
+	.jconfirm-title {
+		font-size: 18px!important
+	}
+	.jconfirm-buttons button {
+		font-size: 11px!important
+	}
+	.negpaywc-confirm-text,
+	.negpaywc-description,
+	.negpaywc-help-text-light {
+		font-size: 11px!important
+	}
+	#negpaywc-handle,
+	#negpaywc-id,
+	#negpaywc-transaction-number {
+		width: 80%!important;
+		display: inline-block
+	}
+	#negpaywc-form label {
+		font-size: 13px!important
+	}
+}
+
+.negpaywc-buttons {
+	float: none!important
+}
+
+#negpaywc-cancel-payment,
+#negpaywc-confirm-payment {
+	float: none!important
+}
+
+.jconfirm-dark .btn-default {
+	background-color: #676767!important
+}
+
